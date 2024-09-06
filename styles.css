@@ -115,6 +115,12 @@ main p {
   font-weight: bold;
   border: 2px solid #1d6b9f;
   text-transform: uppercase;
+  transition: all 0.8s;
+}
+#skills ul li:hover {
+  background-color: #f2004a;
+  border: 2px solid #f2004a;
+  color: #fcd23f;
 }
 .smallspace {
   width: 100%;
