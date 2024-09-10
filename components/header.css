@@ -1,0 +1,71 @@
+
+header {
+    padding: 36px 20px 20px 20px;
+    color: var(--bigblue);
+  }
+  .hi {
+    font-size: 2rem;
+    font-family: josefine;
+    letter-spacing: 20px;
+    text-align: center;
+    word-spacing: 60px;
+  }
+  .lev {
+    font-size: 9rem;
+    margin-bottom: 15px;
+    font-family: climate;
+    letter-spacing: 30px;
+    text-align: center;
+    mix-blend-mode: multiply;
+  }
+  .lev:hover {
+    transform: scale(1.04);
+    transition: 0.3s ease-in-out;
+  }
+  .port {
+    font-family: josefine;
+    font-size: 2rem;
+    letter-spacing: 7px;
+    text-align: center;
+    word-spacing: 53px;
+    mix-blend-mode: multiply;
+  }
+  .logo {
+    opacity: 0;
+    font-family: climate;
+    text-align: left;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: transparent;
+    animation: fade-in ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: 1100px 1300px;
+  }
+  @keyframes fade-in {
+    to {
+      opacity: 1;
+      color: var(--bigblue);
+    }
+  }
+  .logoflower {
+    opacity: 0;
+    width: 32px;
+    position: absolute;
+    top: 8px;
+    left: 25px;
+    transition: opacity ease-in-out 0.8s;
+    animation: rotation 2s infinite linear;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .logo:hover .logoflower {
+    opacity: 1;
+  }

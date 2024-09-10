@@ -1,0 +1,82 @@
+/*--------------MAIN*/
+main {
+    padding-top: 22px;
+  }
+  .paragraph {
+    background-color: var(--beigebg);
+    padding: 60px 40px;
+    width: 100%;
+    border-top: 2px solid var(--bigblue);
+    border-bottom: 2px solid var(--bigblue);
+  }
+  h3 {
+    font-family: climate;
+    mix-blend-mode: multiply;
+    letter-spacing: 2px;
+    font-size: 3rem;
+  }
+  h4 {
+    font-family: josefine;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  .fineline {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--bigblue);
+    mix-blend-mode: multiply;
+  }
+  .space {
+    width: 100%;
+    display: block;
+    height: 300px;
+  }
+  
+  main p {
+    font-family: josefine;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #skills ul li {
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+    background-color: var(--yeahllow);
+    border-radius: 12px;
+    margin: 5px;
+    font-weight: bold;
+    border: 2px solid var(--bigblue);
+    text-transform: uppercase;
+    transition: all 0.8s;
+  }
+  #skills ul li:hover {
+    background-color: var(--flowerred);
+    border: 2px solid var(--flowerred);
+    color: var(--yeahllow);
+  }
+  .smallspace {
+    width: 100%;
+    display: block;
+    height: 60px;
+  }
+  h4 {
+    margin-bottom: 10px;
+  }
+  #contact a svg {
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px 0 0;
+    fill: var(--yeahllow);
+    transition: all 0.8s;
+  }
+  #contact a svg:hover {
+    fill: var(--flowerred);
+  }
+  /*-----------EOF---MAIN*/
